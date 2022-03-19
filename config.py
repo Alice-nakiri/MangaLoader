@@ -1,6 +1,7 @@
 import os
 
 class Config(object):
+    JOIN_LOGGER = int(os.environ['JOIN_LOGGER'])
     APP_ID = int(os.environ['APP_ID'])
     API_HASH = os.environ['API_HASH']
     BOT_TOKEN = os.environ['BOT_TOKEN']
